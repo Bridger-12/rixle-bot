@@ -12,7 +12,7 @@ RUN apt-get update && \
 COPY package.json .
 RUN npm install -g npm@latest
 RUN npm install 
-RUN npm install adiwajshing/baileys@latest
+RUN npm install @adiwajshing/baileys@latest
 RUN npm instal pm2 -g
 ENV PM2_PUBLIC_KEY smfthykaakt6csh
 ENV PM2_SECRET_KEY 3qpih5cm30gqrmt
